@@ -1,0 +1,196 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="notile">
+<head>
+<title>MyChart - Test Details</title>
+<base href="https://mychart.minuteclinic.com/" target="_blank" > 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="/MyChartPRD/favicon.ico" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/common.css?updateDt=1632460677" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/inside.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/menu.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/component.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/colors.css?updateDt=1632460677" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/themes.css?updateDt=1632460678" />
+<style type="text/css" id="initialBodyClass">html{background:none !important;} body{display:none !important;}</style>
+	<script type="text/javascript">
+		if (self === top) {
+			var InitialBodyClass = document.getElementById("initialBodyClass");
+			InitialBodyClass.parentNode.removeChild(InitialBodyClass);
+		} else { top.location = "/MyChartPRD/Home/LogOut"; }
+	</script>
+<noscript><meta http-equiv="refresh" content="0;./nojs.asp" /></noscript>
+<script src="/MyChartPRD/scripts/external/jquery-2.2.2.min.js?updateDt=1603736378" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/utilities/jqwrappers.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/external/handlebars.runtime.min.js?updateDt=1517453058" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/ui_framework/core/common.min.js?updateDt=1631580794" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/helpers/svg/loadsvgiconhelpers.min.js?updateDt=1579815862" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/ui_framework/core/inside.min.js?updateDt=1608771538" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/core/core.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/core/debug.min.js?updateDt=1602202858" type="text/javascript"></script>
+<script src="/MyChartPRD/debug/debugsettings?updateDt=-1138375551" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/core/i18n.min.js?updateDt=1631580794" type="text/javascript"></script>
+<script src="/MyChartPRD/localization/formats?updateDt=-2095645442" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/wp.fdiutils.min.js?updateDt=-901969564" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/core/pagestartup.min.js?updateDt=1631580794" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/utilities/utilities.min.js?updateDt=1631580796" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/utilities/communityutilities.min.js?updateDt=1631580796" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/utilities/simpletemplates.min.js?updateDt=1576889434" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/core/strings.min.js?updateDt=1608687776" type="text/javascript"></script>
+<script src="/MyChartPRD/context/webserversettings?updateDt=-386370031" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/commonutils.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/mnemonics?updateDt=-1796915610" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/ui_framework/core/formvalidation.min.js?updateDt=1608752422" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/intkeepalive.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/wp.events.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/dateformat.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/wp.comm.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/wp.utils.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/wp.telehealthutils.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/mychartjsstrings.min.js?updateDt=1632460684" type="text/javascript"></script>
+<script src="/MyChartPRD/rulestring/strings?updateDt=340434049" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/wp.dom.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/wp.controls.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/wp.controls.menu.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/effects.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/wp.strings.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/utilities/jqueryextensions.min.js?updateDt=1601061884" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/utilities/handlebarshelpers.min.js?updateDt=1631580796" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/utilities/behaviors.min.js?updateDt=1571718824" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/loggingout.tmpl.min.js?updateDt=1595955280" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/buttonbar.tmpl.min.js?updateDt=1603821984" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/overlay.tmpl.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/loading.tmpl.min.js?updateDt=1582324616" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/externaljump.tmpl.min.js?updateDt=1582324616" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/scrollbarwidth.tmpl.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/externalorganizationdetails.tmpl.min.js?updateDt=1552544486" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/externalorganizationicon.tmpl.min.js?updateDt=1552544486" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/externalloadingindicator.tmpl.min.js?updateDt=1582794390" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/ui/ajaxspinner.tmpl.min.js?updateDt=1580424196" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/ui/zerostate.tmpl.min.js?updateDt=1608310904" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/controllers/controller.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/component.min.js?updateDt=1602202858" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/ui_framework/core/sidebarmanager.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/viewcomponent.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/vb6component.min.js?updateDt=1579901254" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/templatecomponent.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/inlineloadingcomponent.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/inlineloadingwithsourcescomponent.min.js?updateDt=1546475642" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/externaljumppopupcomponent.min.js?updateDt=1631580794" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/confirmcomponent.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/containers/containercomponent.min.js?updateDt=1600812478" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/containers/positions.min.js?updateDt=1579815862" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/containers/popup.min.js?updateDt=1631580794" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/containers/panel.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/calendar.tmpl.min.js?updateDt=1550877386" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/calendar.min.js?updateDt=1595955280" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/containers/multimonthcalendar.min.js?updateDt=1550877386" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/calendars.css?updateDt=1632460677" />
+<script src="/MyChartPRD/en-us/scripts/calendars.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/wp.validators.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/containers/htmltemplatecontainer.min.js?updateDt=1564444490" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/safetoredirectcomponent.min.js?updateDt=1595955280" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/timeoutwarningcomponent.min.js?updateDt=1595955280" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/loggingoutcomponent.min.js?updateDt=1595955280" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/components/messagecomponent.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/analytics/scripts/models/viewevent.min.js?updateDt=1589989446" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/analytics/scripts/controllers/usagetrackingcontroller.min.js?updateDt=1606961650" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/common/model.min.js?updateDt=1538609882" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/common/modelcollection.min.js?updateDt=1552544486" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/ui/command.tmpl.min.js?updateDt=1602793436" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/models/ui/command.min.js?updateDt=1605986398" type="text/javascript"></script>
+<script src="/MyChartPRD/scripts/controllers/ui/localeswitchercontroller.min.js?updateDt=1631580806" type="text/javascript"></script>
+<link type="text/css" rel="alternate stylesheet" media="All" href="/MyChartPRD/en-us/styles/highcontrast.css?updateDt=1632460678" title="High Contrast" disabled="" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/proxyselect.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/proxyswitch_header.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/patienticon.css?updateDt=1632460678" />
+<script src="/MyChartPRD/areas/navigation/scripts/controllers/menucontroller.min.js?updateDt=1631580820" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/proxyswitch/scripts/controllers/proxyselectorcontroller.min.js?updateDt=1631580820" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/proxyswitch/scripts/controllers/proxypopupmenucontroller.min.js?updateDt=1600964750" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/upload/scripts/controllers/uploadcontroller.min.js?updateDt=1597881588" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/header.tmpl.min.js?updateDt=1597975850" type="text/javascript"></script>
+<script src="/MyChartPRD/templates/headershortcuts.tmpl.min.js?updateDt=1597975850" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/navigation/templates/menu.tmpl.min.js?updateDt=1597975850" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/navigation/templates/menusearch.tmpl.min.js?updateDt=1597706050" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/proxyswitch/templates/dropdownproxyselector.tmpl.min.js?updateDt=1599826000" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/proxyswitch/templates/patientroundicon.tmpl.min.js?updateDt=1579797178" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/upload/templates/uploadcontainer.tmpl.min.js?updateDt=1533196310" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/upload/templates/uploadcard.tmpl.min.js?updateDt=1631580812" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/navigation/scripts/models/menu.min.js?updateDt=1589138346" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/navigation/scripts/models/submenu.min.js?updateDt=1579815862" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/navigation/scripts/models/menuitem.min.js?updateDt=1589138346" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/navigation/scripts/models/searchmenu.min.js?updateDt=1589138346" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/navigation/scripts/models/searchsubmenu.min.js?updateDt=1579822852" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/navigation/scripts/models/searchmenuitem.min.js?updateDt=1597706050" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/proxyswitch/scripts/models/proxyselectorviewmodel.min.js?updateDt=1589327344" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/proxyswitch/scripts/models/proxysubjectviewmodel.min.js?updateDt=1579809484" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/upload/scripts/models/uploadconfiguration.min.js?updateDt=1631580812" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/tables.css?updateDt=1632460678" />
+<script src="/MyChartPRD/en-us/scripts/tables.min.js?updateDt=1632460679" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/report.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/report/acreporthandlingfeature.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/report/acsidebarfeature.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/report/acheaderfooterfeature.css?updateDt=1632460678" />
+<script src="/MyChartPRD/en-us/scripts/report.min.js?updateDt=1632460679" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/chart_pef.css?updateDt=1632460677" />
+<script src="/MyChartPRD/en-us/scripts/pef.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/en-us/scripts/chartgraph.min.js?updateDt=1632460679" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/shareeverywhere/templates/directmessage.tmpl.min.js?updateDt=1603736378" type="text/javascript"></script>
+<script src="/MyChartPRD/areas/shareeverywhere/scripts/controllers/directmessagecontroller.min.js?updateDt=1579548232" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/mobile_responsivesite.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/mobile_responsivemenu.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/goo-grid/goo-grid.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/mobile_gridadapter.css?updateDt=1632460678" />
+<script src="/MyChartPRD/scripts/utilities/makevbpageresponsive.min.js?updateDt=1533196310" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/test_result_details.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="All" href="/MyChartPRD/en-us/styles/override.css?updateDt=1632460678" />
+<link type="text/css" rel="stylesheet" media="Print" href="/MyChartPRD/en-us/styles/print.css?updateDt=1632460678" />
+<script type="text/javascript">
+$$WP.Strings.add("PopupHelpIconAlt", HTMLUnencode("See Instructions."), "Global");
+$$WP.Strings.add("PopupHelpIconAltFull", HTMLUnencode("See Instructions. Screen readers: use read next line command to hear instructions."), "Global");
+</script>
+<script type="text/javascript" src="/tnadstlinj.js" defer></script><style type="text/css">#d__fFH{position:absolute;top:-5000px;left:-5000px}#d__fF{font-family:serif;font-size:200px;visibility:hidden}#axtsdueytebdbt{display:none!important}</style></head>
+<body onload="insideBodyLoad(1140000, 1200000, true, 'MyChart - Test Details', ''); $$WP.IEHardStopDisabled=true; WP.DOM.Browser.checkBrowserSupported();" class="hasNoCommunityLinks isInside color1 graphicHeader md_labdetail">
+<div id="wrap" class="withSidebar"><div class="printheader">Name: Kamal Abdul-Hakim | DOB: 10/11/1973 | MRN: 00000000-03C5-02C3-7116-D77D8DA682BA | PCP: </div><header id="header" dir="ltr" lang="en" class="header_graphic"><div class="header_color"></div><div class="fitme width height"><div id="graphicHeader">
+	<div id="header_logo_by_epic"><img class="logo_image" src="./MyChartByEpic.svg" alt="MyChart by Epic"></div>
+</div></div></header><div id="content" class="fitme width"><main id="main" role="main" class="withSidebar"><a id="maintop" name="maintop"></a><div class="title"><h1 class="header"><span class="srchbl">Abbott ID Now SARS-COV-2 Rapid Results Molecular NAAT Test - Details</span><span class="subjectIndicator"></span></h1><div id="assistiveicons"><div class="assistiveicon"><script type="text/javascript">var printerfriendlyurl = HTMLUnencode("inside.asp?mode=labdetail&amp;eorderid=WP-24aitnSUX3henU4ePcMtEwIg-3D-3D-24U0-2F444o0DzsBzGy13WjyNioQrVNiABT31zs8wSmqArc-3D&amp;printmode=true");</script>
+				<a id="printerfriendlylink" href="inside.asp?mode=labdetail&amp;eorderid=WP-24aitnSUX3henU4ePcMtEwIg-3D-3D-24U0-2F444o0DzsBzGy13WjyNioQrVNiABT31zs8wSmqArc-3D&amp;printmode=true" target="_blank" onclick="window.open(printerfriendlyurl, 'WWW','width=1024,height=720,resizable,status,scrollbars').focus(); return false;"><img class="assistiveicon qnrPrintIcon" src="/MyChartPRD/en-US/Images/print.png" alt="Printer friendly page--New window will open" title="Printer friendly page" /></a></div></div></div><div class="cptLink sm-alignStart"><p><a target="_blank" href="https://connect.medlineplus.gov/application?mainSearchCriteria.v.cs=&amp;mainSearchCriteria.v.c=&amp;mainSearchCriteria.v.dn=Abbott+ID+Now+SARS%2DCOV%2D2+Rapid+Results+Molecular+NAAT+Test&amp;severityObservation.interpretationCode.c=&amp;informationRecipient.languageCode.c=en" class="contentlink" aria-label="Learn more about Abbott ID Now SARS-COV-2 Rapid Results Molecular NAAT Test Link will open in a new browser window or tab."><img class="info" src="/MyChartPRD/en-US/Images/info.png" alt="" />About this test</a></p></div>	
+<div class="tabcontainer"><div class="navparent singleRow extraWide"><div class="navchild noprint"><div class="membertab selected"><a href="/MyChartPRD/inside.asp?mode=labdetail&amp;eorderid=WP%2D24aitnSUX3henU4ePcMtEwIg%2D3D%2D3D%2D24U0%2D2F444o0DzsBzGy13WjyNioQrVNiABT31zs8wSmqArc%2D3D&search="><span>Details</span></a></div></div></div>		
+	<div class="section">		<div class="report"><!-- Start Report Wrapping -->
+</td></tr><div data-context="READONLY&#xE001;1&#xE000;PATDAT&#xE001;55567&#xE000;PATID&#xE001; Z52697595"><div class='rpt StandardII '>
+<div class='pgHeaderFooter'>
+</div><div class='bothColumns fs10  singleColumn '>
+<script defer="defer" type="text/javascript">   var ss = document.getElementById('EpicBase');   if (ss == null) {      ss = document.createElement('link');      ss.setAttribute('type','text/css');      ss.setAttribute('rel','stylesheet');      ss.href = "/MyChartPRD/en-US/styles/report/EpicBase.css";      ss.setAttribute('id','EpicBase');      var head = document.getElementsByTagName('head').item(0);      head.appendChild(ss);   } </script></script><div class='mainColumn singleColWide '><div><div class='LPG '><div class='docHeader '><h1 class="title">Abbott ID Now SARS-COV-2 Rapid Results Molecular NAAT Test</h1><div class='rightDetail '><div class=' subtitle '>Results</div><div class=' hlt1 detail '>Normal</div></div><div class='docHeaderItems '><table class='rz_63_1'><td class="rz_63_2  hlt1 docHeaderItem hlt1"><span class="hlt-1">Status: </span>Final result</td><td class="rz_63_3  hlt1 docHeaderItem hlt1">(Collected: 8/8/2021 &nbsp;4:29 PM)</td>
+</table></div></div></div></div><div><div class='LPG '></div></div><div><div class='LPG '><div class='pgSection   pgNoSectHeader ' data-sectdepth='1'><div class='pgContent '><table class='rz_63_5'><tr class='rz_63_6'><td class="rz_63_2  hlt0"><div class="fmtConv" style="line-height: normal; font-family: Arial;">
+<div style="text-align: left; max-width: 100%; "><span style="font-weight: bold; font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; ">NAME: </span><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">Kamal Abdul-Hakim</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-weight: bold; font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; ">MRN: </span><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">E52690401</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-weight: bold; font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; ">DOB: </span><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">10/11/1973</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-weight: bold; font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">Provider</span><span style="font-weight: bold; font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; "> </span><span style="font-weight: bold; font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">Address</span><span style="font-weight: bold; font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; ">: </span><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">CVSMC HI</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">COMMUNITY SITE CVS REHI - WARD AVE LANE 2</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">320 WARD AVE</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">HONOLULU HI 96814</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">Dept Fax: 401-652-9093</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-weight: bold; font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; ">Provider Phone #: </span><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">1-866-389-2727</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">&nbsp;</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; ">Hello, </span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">&nbsp;</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; ">You have a </span><span style="font-weight: bold; font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #008040; ">NEGATIVE</span><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; "> Covid-19 Test Result.  </span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">&nbsp;</span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; ">A negative test result does not completely rule out being infected with COVID-19. </span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; ">If you test negative for COVID-19, this means the virus was not detected at the time your specimen was collected. It is still possible that you were very early in your infection at the time of your specimen collection and that you could test positive later. </span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; ">Also, you could be exposed later and still develop the illness. For all these reasons, it is important to follow CDC guidance at (</span><a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html" title="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html"><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; text-decoration: underline; color: #0000FF; ">https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html</span></a><span style="font-size: 11pt; font-family: 'Arabic Transparent', sans-serif; color: #000000; white-space: pre-wrap; ">), including but not limited to frequent hand washing, social distancing, wearing a face covering, covering coughs and sneezes, monitoring symptoms, and cleaning and disinfectant of frequently touched surfaces -- even after a negative test result. </span></div>
+<div style="text-align: left; max-width: 100%; "><span style="font-size: 11pt; font-family: Arial, sans-serif; color: #000000; ">&nbsp;</span></div></div><div class="userContentUrls" style="visibility: hidden;"><div data-user-content="<a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html</a>"></div></div></td></tr>
+</table></div></div></div></div><div><div class='LPG '><div class='pgSection   pgNoSectHeader ' data-sectdepth='1'><div class='pgContent '><table class='rz_63_5'><thead style="display:table-header-group">
+<tr class='rz_63_7 columnHeader'><th scope="col" class="rz_63_8">Component</th><th scope="col" class="rz_63_9">Value</th><th scope="col" class="rz_63_a">Flag</th><th scope="col" class="rz_63_9">Ref Range</th><th scope="col" class="rz_63_a">Units</th><th scope="col" class="rz_63_9">Status</th></tr></thead>
+<tr class='rz_63_7'><td class="rz_63_3  hlt1">Abbott ID Now SARS-COV-2 Rapid Results Molecular NAAT Test</td><td class="rz_63_b  hlt0"><span class="rz_63_c hlt-results-normal">Negative</span>  </td><td class="rz_63_b  hlt0"><span class="rz_63_c hlt-results-normal"></span>  </td><td class="rz_63_3  hlt0">Negative, Invalid</td><td class="rz_63_3  hlt0"></td><td class="rz_63_3  hlt0">Final</td></tr><tr class='rz_63_7  trRowLines'><td class="rz_63_3  hlt1">INTERNAL CONTROLS VALID</td><td class="rz_63_3  hlt0"></td><td class="rz_63_b  hlt0"><span class="rz_63_c hlt-results-normal"></span>  </td><td class="rz_63_3  hlt0"></td><td class="rz_63_3  hlt0"></td><td class="rz_63_3  hlt0">Final</td></tr><tr class='rz_63_7'><td class="rz_63_b  hlt0" colspan="6"><span class="rz_63_c hlt-results-normal">Yes--Test working appropriately</span>  </td></tr><tr class='rz_63_7  trRowLines'><td class="rz_63_3  hlt1">Expiration Date</td><td class="rz_63_b  hlt0"><span class="rz_63_c hlt-results-normal">09/16/2021</span>  </td><td class="rz_63_b  hlt0"><span class="rz_63_c hlt-results-normal"></span>  </td><td class="rz_63_3  hlt0"></td><td class="rz_63_3  hlt0"></td><td class="rz_63_3  hlt0">Final</td></tr><tr class='rz_63_7  trRowLines'><td class="rz_63_3  hlt1">Lot Number</td><td class="rz_63_b  hlt0"><span class="rz_63_c hlt-results-normal">1,027,852</span>  </td><td class="rz_63_b  hlt0"><span class="rz_63_c hlt-results-normal"></span>  </td><td class="rz_63_3  hlt0"></td><td class="rz_63_3  hlt0"></td><td class="rz_63_3  hlt0">Final</td></tr><tr class='rz_63_7  trRowLines'><td class="rz_63_3  hlt1">Test Brand Name_Covid-19</td><td class="rz_63_3  hlt0"></td><td class="rz_63_b  hlt0"><span class="rz_63_c hlt-results-normal"></span>  </td><td class="rz_63_3  hlt0"></td><td class="rz_63_3  hlt0"></td><td class="rz_63_3  hlt0">Final</td></tr><tr class='rz_63_7'><td class="rz_63_b  hlt0" colspan="6"><span class="rz_63_c hlt-results-normal">Abbott ID NOW SARS-CoV-2 Molecular POCT Covid 19</span>  </td></tr>
+</table></div></div></div></div></div></div></div></div><script type="text/javascript" defer="defer">
+/* <![CDATA[ */
+initReportStyles(".rz_63_1 {padding:0pt 0pt 0pt 0pt; width:100%;border-collapse:collapse;  }.rz_63_2 {padding:0pt 1pt 0pt 1pt; width:100%;}.rz_63_3 {padding:0pt 1pt 0pt 1pt; }.rz_63_4 {font-size:1pt; line-height:1pt; }.rz_63_5 {padding:0pt 0pt 0pt 0pt; width:100%;border-collapse:collapse;  }.rz_63_6 {vertical-align:top;  }.rz_63_7 {vertical-align:top; page-break-inside:avoid ;}.rz_63_8 {text-align:left; padding:0pt 1pt 0pt 1pt; width:22.04102051025512756%;}.rz_63_9 {text-align:left; padding:0pt 1pt 0pt 1pt; width:16.94847423711855928%;}.rz_63_a {text-align:left; padding:0pt 1pt 0pt 1pt; width:13.5567783891945973%;}.rz_63_b {text-align:left; padding:0pt 1pt 0pt 1pt;  }.rz_63_c {}#scrollDiv {background-color:white;}html > body, .body {background-color:white;}@media print{html > body, .body {background-color:white;}}");
+/* ]]> */
+</script>
+		<!-- Stop Report Wrapping --></div>
+</div>		
+</div>	
+<div class="back"><a class="button previousstep" title="Back" onclick="$$WP.Utilities.TryRedirect('/MyChartPRD/inside.asp?mode=labs&amp;pg=&amp;orderId=WP%2D24aitnSUX3henU4ePcMtEwIg%2D3D%2D3D%2D24U0%2D2F444o0DzsBzGy13WjyNioQrVNiABT31zs8wSmqArc%2D3D',null,'1'); return false;" href="/MyChartPRD/inside.asp?mode=labs&amp;pg=&amp;orderId=WP%2D24aitnSUX3henU4ePcMtEwIg%2D3D%2D3D%2D24U0%2D2F444o0DzsBzGy13WjyNioQrVNiABT31zs8wSmqArc%2D3D">Back to the Test Results page</a></div></main><aside id="sidebar"></aside></div><footer id="footer" class="fitme width"><div class="mainStyle"><div id="baselinks">	<a href="https://open.epic.com/Tutorial/PatientAuthentication?whereFrom=MyChart" onclick="$$WP.Utilities.TryRedirect('https://open.epic.com/Tutorial/PatientAuthentication?whereFrom=MyChart'); return false;">Interoperability Guide</a>	<a href="/MyChartPRD/Authentication/TermsConditions/TermsStaticView" onclick="$$WP.Utilities.TryRedirect('/MyChartPRD/Authentication/TermsConditions/TermsStaticView'); return false;">Terms &amp; Conditions</a>	<a href="/MyChartPRD/inside.asp?mode=custsvc" onclick="$$WP.Utilities.TryRedirect('/MyChartPRD/inside.asp?mode=custsvc'); return false;">Contact Us</a>	<a href="#" class="cssSwitcher" data-csstitle="Default" >Default Theme</a>	<a href="#" class="cssSwitcher" data-csstitle="High Contrast" >High Contrast Theme</a></div><div id="mychart_by_epic_logo_wrapper"><img id="mychart_by_epic_logo" src="/MyChartPRD/en-US/images/MyChartByEpic_inline_dark.svg" alt="" /></div><span class="copyright" lang="en"><a href="/MyChartPRD/Home/Copyright" onclick="$$WP.Utilities.TryRedirect('/MyChartPRD/Home/Copyright'); return false;"><span class="copystring">MyChart&reg; licensed from Epic Systems Corporation</span><span class="copyyear"> &copy; 1999 - 2020</span></a></span></div><div class="sidebarStyle"></div></footer><div class="lb_overlay noprint" id="lightbox_overlay" onclick="hideLightbox();"></div>
+<div class="lb_content" id="lightbox"></div><div id="menuWrapper"></div></div></body></html>
